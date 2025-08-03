@@ -25,7 +25,7 @@ In this section I will be going over a few quick examples of the invoke map meth
 
 When calling invoke map the first argument should be the collection that I want to use invoke map with, such as an array fo numbers for example. The second argument is then a path to the function to call for each element, or the function itself to use. Then after that it is a question of what values to use for the arguments when calling the given function that is what the additional arguments are for at that point.
 
-```
+```js
 let nums = [123,456,789];
 let a = _.invokeMap(nums, ''.split, '');
 console.log(a);
